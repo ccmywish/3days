@@ -4,6 +4,14 @@ https://github.com/jungleli/3week-3page-07-template-2
 
 https://jungleli.github.io/3-Pages-in-3-Weeks-Episode-07/#/1
 
+
+# 自适应 vs 响应式
+
+自适应： 每个设备一套css
+
+响应式： 多个设备一套css
+
+
 # 布局
 
 - Mostly fluid 流体
