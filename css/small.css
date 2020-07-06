@@ -1,0 +1,250 @@
+hr {
+    border: 1px dashed; 
+    opacity: 0.2;
+    color: grey;
+}
+
+.container{
+    margin: 0px 470px;
+    /* border: 10px green solid; */
+    overflow: auto;
+}
+
+/* 导航栏 */
+
+.nav{
+    width: 100%;
+    height: 8%;
+    /* background: red; */
+    float: left;
+}
+
+.nav img{
+    /* margin: 10px, 50px; */
+    padding: 5px 185px 5px ; /* 为什么中间换成auto没有用 */
+    width: 100px; 
+    height: 100px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+
+.nav li {
+    padding: 10px;
+}
+
+.nav div {
+    line-height: 20px;
+}
+
+.nav i {
+    font-size: 25px;
+}
+
+.nav .link-to{
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+    color: #34AC98;
+    text-decoration:none;
+}
+
+
+
+
+
+
+/* 中间 */
+
+
+.main{
+    clear: both;
+    position: relative;
+    width: 100%;
+    height: 95%;
+    /* background: pink; */
+    float: right;
+}
+
+.main img {
+    width: 100%;
+    height: 60%;
+    display: block;
+
+}
+
+
+/* slogan */
+
+.main .slogan p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main .slogan .white{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+    width: 100%;
+    height: 50px;
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.main .slogan .black{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+    height: 50px;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+/* subscribe */
+
+.subscribe-us i {
+    float: left;
+    padding-left: 10px;
+}
+
+.subscribe-us .describe {
+    float: left;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    width: 80%;
+    font-style: italic;
+    font-family: "Times New Roman",Times,serif;
+    font-size: smaller;
+}
+
+.subscribe-us .form {
+    padding-left: 10px;
+    clear: both;
+}
+
+.subscribe-us .form input[type="email"]{
+    margin-right: 50px;
+    width: 250px;
+}
+
+
+
+/* display-card */
+
+.display-card-list {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    /* align-content: space-between; */
+}
+
+.display-card-list .display-card {
+    height: 40%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.display-card-list .display-card img {
+    padding-left: 80px;
+    width: 80%;
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15) ;
+    background: #FBFBFB;
+    border: 1px solid #DDD;
+    padding: 5px;
+
+}
+
+.display-card-list .display-card .title {
+    padding: 20px 0px 10px;
+    font-size: medium;
+    color: #34AC98;
+}
+
+.display-card-list .display-card .describe {
+    width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+.display-card-list .display-card .time {
+    margin: 20px 0px 0px;
+}
+
+.display-card-list .display-card .time span{
+    color: grey;
+    font-size: smaller;
+}
+
+.display-card-list .display-card .link-to {
+    font-size: smaller;
+    color: #34AC98;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+    clear: both;
+    height: 10%;
+    padding-top: 20px; /* 为什么换成margin就没用 */
+    /* margin: 30px 0px 0px 0px; */
+    /* line-height: 10px; */
+    /* border: 10px yellow solid; */
+    overflow: auto; /* 就是这个我没有写，黄框框一直只有一点点*/
+}
+
+.footer-left{
+    padding: 15px 5px 20px;
+    height: 100%;
+    float: left;
+    font-size: smaller;
+}
+
+.footer-left a{
+    color: #34AC98;
+    text-decoration:none;
+}
+
+
+.footer-right{
+    padding: 20px 5px 20px;
+    height: 100%;
+    float: right;
+}
+
+.footer-right i{
+    font-size: 26px;
+    color: grey;
+}
