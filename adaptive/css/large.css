@@ -10,42 +10,34 @@ hr {
     overflow: auto;
 }
 
-/* 导航栏 */
+/* 左侧 */
 
-#small-hr {
-    display: none;
-}
-
-.nav{
+.main-left{
     width: 15%;
     height: 90%;
     /* background: red; */
     float: left;
 }
 
-.nav img{
+.main-left img{
     /* margin: 10px, 50px; */
     padding: 5px 0 5px ; /* 为什么中间换成auto没有用 */
     width: 100px; 
     height: 100px;
 }
 
-.nav ul {
+.main-left ul {
     list-style: none;
     padding: 0px;
     line-height: 40px;
     margin-bottom: 60px;
 }
 
-.nav ul div{
-    display: inline;
-}
-
-.nav i {
+.main-left i {
     font-size: 25px;
 }
 
-.nav .link-to{
+.main-left .link-to{
     font-size: large;
     font-weight: bold;
     font-family: cursive;
@@ -56,27 +48,27 @@ hr {
 
 
 /* social */
-.nav .social .title{
+.main-left .social .title{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.nav .social .desc{
+.main-left .social .desc{
     font-family: "Times New Roman",Times,serif;
     font-size: smaller;
     font-style: italic;
     padding-bottom: 15px;
 }
 
-.nav .social i{
+.main-left .social i{
     color: #34AC98;
     font-size: 16px;
 }
 
-.nav .social span{
+.main-left .social span{
     color: #34AC98;
 }
 
-.nav .social button {
+.main-left .social button {
     border: 1px solid #DDD;
     border-radius: 3px;
     background-color: white;
@@ -89,7 +81,7 @@ hr {
 /* 右侧 */
 
 
-.main{
+.main-right{
     position: relative;
     width: 80%;
     height: 90%;
@@ -97,7 +89,7 @@ hr {
     float: right;
 }
 
-.main img {
+.main-right img {
     display: block;
     width: 100%;
     height: 60%;
@@ -106,17 +98,17 @@ hr {
 
 
 /* slogan */
-.main .slogan {
+.main-right .slogan {
     position: absolute;
     top: 230px;
 }
 
-.main .slogan p{
+.main-right .slogan p{
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.main .slogan .white{
+.main-right .slogan .white{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,7 +122,7 @@ hr {
     background-color: white;
 }
 
-.main .slogan .black{
+.main-right .slogan .black{
     display: flex;
     align-items: center;
     justify-content: center;

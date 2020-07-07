@@ -5,46 +5,40 @@ hr {
 }
 
 .container{
-    margin: 0px 300px;
+    margin: 40px 80px;
     /* border: 10px green solid; */
     overflow: auto;
 }
 
 /* 导航栏 */
 
+#small-hr {
+    display: none;
+}
+
 .nav{
-    width: 100%;
-    height: 8%;
+    width: 15%;
+    height: 90%;
     /* background: red; */
     float: left;
 }
 
 .nav img{
     /* margin: 10px, 50px; */
-    float: left;
     padding: 5px 0 5px ; /* 为什么中间换成auto没有用 */
     width: 100px; 
     height: 100px;
 }
 
 .nav ul {
-    float: right;
-    display: flex;
-    justify-content: space-around;
     list-style: none;
-    text-align: center;
     padding: 0px;
     line-height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
-
-.nav li {
-    padding: 10px;
-}
-
-.nav div {
-    line-height: 20px;
+.nav ul div{
+    display: inline;
 }
 
 .nav i {
@@ -61,25 +55,52 @@ hr {
 
 
 
+/* social */
+.nav .social .title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav .social .desc{
+    font-family: "Times New Roman",Times,serif;
+    font-size: smaller;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.nav .social i{
+    color: #34AC98;
+    font-size: 16px;
+}
+
+.nav .social span{
+    color: #34AC98;
+}
+
+.nav .social button {
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    background-color: white;
+    height: 35px;
+    cursor: pointer;
+}
 
 
 
-/* 中间 */
+/* 右侧 */
 
 
 .main{
-    clear: both;
     position: relative;
-    width: 100%;
-    height: 95%;
+    width: 80%;
+    height: 90%;
     /* background: pink; */
     float: right;
 }
 
 .main img {
+    display: block;
     width: 100%;
     height: 60%;
-    display: block;
 
 }
 
@@ -87,7 +108,7 @@ hr {
 /* slogan */
 .main .slogan {
     position: absolute;
-    top: 230px;
+    top: 26%;
 }
 
 .main .slogan p{
@@ -128,12 +149,10 @@ hr {
 
 /* select box */
 #select-box-list {
-    height: 50px;
     display: flex;
 }
 
 .little-box {
-    height: 100%;
     width: 25%;
     background-color: #EFF8F7;
     color: #34AC98;
@@ -153,7 +172,7 @@ hr {
 .little-box-name {
     font-size: medium;
     padding-left: 20px;
-    padding-top: 0px;
+    padding-top: 10px;
     line-height: 5px;
 }
 
@@ -162,9 +181,7 @@ hr {
     font-family: "Times New Roman",Times,serif;
     font-size: smaller;
     padding-left: 20px;
-    padding-bottom: 0px;
-    line-height: 4px;
-
+    padding-bottom: 5px;
 }
 
 

@@ -5,16 +5,12 @@ hr {
 }
 
 .container{
-    margin: 0px 100px;
+    margin: 0px 300px;
     /* border: 10px green solid; */
     overflow: auto;
 }
 
 /* 导航栏 */
-
-#small-hr {
-    display: none;
-}
 
 .nav{
     width: 100%;
@@ -63,9 +59,7 @@ hr {
     text-decoration:none;
 }
 
-.social {
-    display: none;
-}
+
 
 
 
